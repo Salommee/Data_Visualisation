@@ -1,53 +1,35 @@
-# 🛍 Ecommerce Customers - მონაცემთა ანალიზისა და პროგნოზირების პროექტი
+# 🛍 Ecommerce Customers - Data Analysis and Prediction Project
 
-**პროექტის მიზანი:**  
-მოცემული Jupyter Notebook წარმოადგენს მონაცემთა ანალიზისა და მანქანური სწავლების პროექტს, რომელიც ეფუძნება ელექტრონული კომერციის მომხმარებელთა მონაცემებს. მიზანია განვსაზღვროთ, რა ფაქტორები ახდენენ გავლენას მომხმარებლის ონლაინ ან ოფლაინ ყიდვის ჩვევებზე და შევქმნათ პროგნოზირების მოდელი.
+## Project Goal
+This Jupyter Notebook project involves data analysis and machine learning based on ecommerce customer data. The goal is to identify the factors influencing customers' online and offline purchasing behaviors and to build a predictive model.
 
----
+## 📁 Files
+**Ecommerce Customers.ipynb** – The main notebook which includes:
+- Exploratory Data Analysis (EDA)
+- Visualizations (Seaborn, Matplotlib)
+- Correlation analysis
+- Building a linear regression model
+- Model evaluation
 
-## 📁 ფაილები
-
-- `Ecommerce Customers.ipynb` – ძირითადი ნოუთბუქი, რომელშიც შესრულებულია:
-  - მონაცემების წინასწარი ანალიზი (EDA)
-  - ვიზუალიზაციები (Seaborn, Matplotlib)
-  - კორელაციათა განხილვა
-  - ხაზოვანი რეგრესიის მოდელის აგება
-  - შედეგების შეფასება
-
----
-
-## 🧪 გამოყენებული ტექნოლოგიები
-
+## 🧪 Technologies Used
 - Python 🐍  
 - Jupyter Notebook 📓  
-- NumPy & Pandas – მონაცემთა დამუშავება  
-- Seaborn & Matplotlib – ვიზუალიზაცია  
-- Scikit-learn – მოდელირება და შეფასება  
+- NumPy & Pandas – data processing  
+- Seaborn & Matplotlib – visualization  
+- Scikit-learn – modeling and evaluation  
 
----
+## 📈 Results
+Within this project, a linear regression model was built to predict customer spending on the website based on the following factors:  
+- Time on Website  
+- Time on App  
+- Yearly Income  
+- Average Session Length  
 
-## 📈 შედეგი
+## 🚀 How to Use
+1. Download or clone the repository  
+2. Open the file `Ecommerce Customers.ipynb` in Jupyter Notebook  
+3. Run all cells sequentially  
+4. Review the data analysis, visualizations, and prediction results  
 
-პროექტის ფარგლებში აშენდა ხაზოვანი რეგრესიის მოდელი, რომელიც პროგნოზირებს მომხმარებლის ხარჯვას ვებსაიტზე, შემდეგი ფაქტორების მიხედვით:
-
-- დრო ვებსაიტზე (Time on Website)
-- დრო მობილურ აპზე (Time on App)
-- წლიური შემოსავალი (Yearly Income)
-- საშუალო სესიის სიგრძე (Session Length)
-
----
-
-## 🚀 როგორ გამოიყენო
-
-1. ჩამოტვირთე ან დაკლონე რეპოზიტორია  
-2. გახსენი ფაილი `Ecommerce Customers.ipynb` Jupyter Notebook-ში  
-3. გაუშვი ყველა უჯრა თანმიმდევრულად  
-4. დააკვირდი მონაცემთა ანალიზს, ვიზუალიზაციებს და პროგნოზის შედეგებს  
-
----
-
-## 📌 შენიშვნა
-
-ეს პროექტი წარმოადგენს პირად დემონსტრაციას მონაცემთა ანალიზისა და პროგნოზირების უნარების. ის დაფუძნებულია სინთეტიკურ ან ანონიმიზებულ მონაცემებზე და არ გამოიყენება კომერციული მიზნებისთვის.
-
----
+## 📌 Note
+This project is a personal demonstration of data analysis and predictive skills. It is based on synthetic or anonymized data and is not intended for commercial use.
